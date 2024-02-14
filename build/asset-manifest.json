@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.039bf95e.css",
-    "main.js": "/static/js/main.0d7efae7.js",
+    "main.js": "/static/js/main.b578ad33.js",
     "static/media/Niranjan.png": "/static/media/Niranjan.19bb4685ab97c87114f6.png",
     "static/media/Hello.gif": "/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/canva.png": "/static/media/canva.6fff349a322a606952a4.png",
@@ -9,7 +9,7 @@
     "static/media/netlify.png": "/static/media/netlify.603ef81c872f9df8c343.png",
     "static/media/P Resume (1).pdf": "/static/media/P Resume (1).939cd8ae08665107aa9d.pdf",
     "static/media/githubpages.png": "/static/media/githubpages.b58911d15039f32b4813.png",
-    "static/media/Kutumb_Head-removebg-preview.png": "/static/media/Kutumb_Head-removebg-preview.6c1e622cbc43339cc5c6.png",
+    "static/media/Kutumb_Head-removebg-preview.png": "/static/media/Kutumb_Head-removebg-preview.46703a80f2cf0424c01a.png",
     "static/media/materialui.png": "/static/media/materialui.23ad46f9ff6ae9d60b41.png",
     "static/media/c++.png": "/static/media/c++.eeb0bae37f1f0b8c830f.png",
     "static/media/expressjs.png": "/static/media/expressjs.63c8461f3f7d58c1fb63.png",
@@ -42,10 +42,10 @@
     "static/media/js-icon.svg": "/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "static/media/vue-icon.svg": "/static/media/vue-icon.c286d2da48ffbf281f407b0c4c94271f.svg",
     "main.039bf95e.css.map": "/static/css/main.039bf95e.css.map",
-    "main.0d7efae7.js.map": "/static/js/main.0d7efae7.js.map"
+    "main.b578ad33.js.map": "/static/js/main.b578ad33.js.map"
   },
   "entrypoints": [
     "static/css/main.039bf95e.css",
-    "static/js/main.0d7efae7.js"
+    "static/js/main.b578ad33.js"
   ]
 }
