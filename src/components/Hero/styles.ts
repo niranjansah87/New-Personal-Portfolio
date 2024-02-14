@@ -49,7 +49,7 @@ export const Container = styled.section`
   .hero-image{
     img{
       max-width: 500px;
-      margin-top: -12rem;
+      margin-top: 0rem;
       margin-right:8rem;
     }
   }
@@ -66,7 +66,7 @@ export const Container = styled.section`
     }
     
     .hero-image{
-      display: none;
+      display:relative;
     }
   }
 
