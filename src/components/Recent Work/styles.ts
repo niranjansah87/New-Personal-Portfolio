@@ -5,6 +5,7 @@ export const Container = styled.section`
   margin-top: 15rem;
   
   h2{
+    color: red;
     text-align: center;
     font-size: 4rem;
     margin-bottom: 3rem;
@@ -19,7 +20,7 @@ export const Container = styled.section`
 
     .project{
       padding: 2rem 1.8rem;
-      background-color: #2b2b2b;
+      background-color: transparent;
       border-radius: 1.2rem;
       transition: 0.25s;
       display: flex;
@@ -28,14 +29,14 @@ export const Container = styled.section`
       color: #FFF;
       &:hover{
         transform: translateY(-5px);
-        background-color: var(--pink);
+        background-color: var(--blue);
       }
 
       header{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        color: var(--blue);
+        color: var(--green);
         margin-bottom: 3.6rem;
         .project-links{
           display: flex;
@@ -56,7 +57,7 @@ export const Container = styled.section`
         margin-bottom: 2rem;
         a{
           color: #FFFF;
-          border-bottom: 1px solid var(--green);
+          border-bottom: 1px solid white;
           transition: color 0.25s;
           &:hover{
             color: var(--green);
