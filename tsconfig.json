@@ -18,8 +18,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
-    "types": ["@types/babel__generator/index.d.ts"]
+    "jsx": "preserve",
+    "types": [
+      "@types/babel__generator/index.d.ts"
+    ]
   },
   "include": [
     "src"
