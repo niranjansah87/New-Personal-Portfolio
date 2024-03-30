@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.46961403.css",
-    "main.js": "/static/js/main.f4d4909a.js",
+    "main.js": "/static/js/main.7af2f048.js",
     "static/media/Niranjan.png": "/static/media/Niranjan.19bb4685ab97c87114f6.png",
     "static/media/Hello.gif": "/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/canva.png": "/static/media/canva.6fff349a322a606952a4.png",
     "static/media/Python.png": "/static/media/Python.dea924d737bb84eb9ce3.png",
     "static/media/netlify.png": "/static/media/netlify.603ef81c872f9df8c343.png",
-    "static/media/P Resume (1).pdf": "/static/media/P Resume (1).939cd8ae08665107aa9d.pdf",
+    "static/media/P Resume (1).pdf": "/static/media/P Resume (1).250c08925bab1a083b17.pdf",
     "static/media/githubpages.png": "/static/media/githubpages.b58911d15039f32b4813.png",
     "static/media/Kutumb_Head-removebg-preview.png": "/static/media/Kutumb_Head-removebg-preview.46703a80f2cf0424c01a.png",
     "static/media/materialui.png": "/static/media/materialui.23ad46f9ff6ae9d60b41.png",
@@ -39,10 +39,10 @@
     "static/media/linkedin.svg": "/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "main.46961403.css.map": "/static/css/main.46961403.css.map",
-    "main.f4d4909a.js.map": "/static/js/main.f4d4909a.js.map"
+    "main.7af2f048.js.map": "/static/js/main.7af2f048.js.map"
   },
   "entrypoints": [
     "static/css/main.46961403.css",
-    "static/js/main.f4d4909a.js"
+    "static/js/main.7af2f048.js"
   ]
 }
