@@ -1,4 +1,5 @@
 [build]
   command = "yarn build"
   path="/build"
+  node_version="yarn"
 
