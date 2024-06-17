@@ -41,6 +41,37 @@ Animated Navbar</h3>
           </div>
         </ScrollAnimation>
 
+
+
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://niranjansah87.github.io/Futuristic-Login-page/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>
+Futuristic Login page</h3>
+              <p>
+              Futuristic Login page contains a login form with a futuristic design. The form features a dark color scheme, a minimalist aesthetic, and a focus on functionality. The design includes a background image, a login form with input fields for username and password, and a submit button.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                
+                <li>Html</li>
+                <li>css</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
