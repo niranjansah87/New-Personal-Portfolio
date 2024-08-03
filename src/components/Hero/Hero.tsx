@@ -68,7 +68,7 @@ export function Hero() {
         
 
         <a
-          href="https://www.instagram.com/niranjansah8790"
+          href="https://www.instagram.com/_niranjan_8790/"
           target="_blank"
           rel="noreferrer"
         >
