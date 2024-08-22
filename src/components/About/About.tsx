@@ -36,7 +36,11 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-          Hi there! I'm Niranjan, I am a passionate and dedicated computer science and information technology professional with expertise in C, C++, Java, Python, and Full Stack Development. With an interest in Cyber Security and Web Development, I am committed to staying up-to-date with the latest industry trends and technologies. Let's connect and explore how I can help drive success for your organization
+          I'm a dynamic full stack web developer with a strong eye for design and innovation. Currently pursuing my engineering degree, I specialize in MERN and PFSD stacks, adept at creating seamless digital experiences through responsive interfaces with React.js and robust APIs with Node.js and Express.js.
+
+With a background in graphic design using Photoshop and Canva, I enhance user engagement and brand identities. Proficient in C, C++, Java, and Python, I thrive on pushing the boundaries of technology.
+
+Open to exciting opportunities and collaborations—let's connect and create something exceptional together!
           </p>
         </ScrollAnimation>
         
