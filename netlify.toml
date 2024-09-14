@@ -1,5 +1,8 @@
 [build]
   command = "yarn build"
-  path="/build"
-  node_version="yarn"
+  publish = "build"  # The directory where your production files are generated
+  node_version = "16"  # Specify the node version (if needed)
+
+[build.environment]
+  CI = "false"  # Disable treating warnings as errors during build
 
