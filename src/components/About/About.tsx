@@ -152,7 +152,7 @@ Open to exciting opportunities and collaborations—let's connect and create som
 
           </div>
           <div>
-        <h4> Databases and cloud hosting</h4>
+        <h4> Databases and Cloud</h4>
         </div>
         <div className="hard-skills">
           <div className="hability">
@@ -173,28 +173,10 @@ Open to exciting opportunities and collaborations—let's connect and create som
             </ScrollAnimation>
           </div>
 
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={azure} alt="Azure" />
-            </ScrollAnimation>
-          </div>
+          
 
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={netlify} alt="netlify" />
-            </ScrollAnimation>
-          </div>
-
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={heroku} alt="Heroku" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={gitpages} alt="Git Pages" />
-            </ScrollAnimation>
-          </div>
+          
+          
           </div>
           <div>
         <h4> Additional Skill</h4>
