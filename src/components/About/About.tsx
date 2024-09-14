@@ -25,7 +25,7 @@ import expressjs from "../../assets/expressjs.png";
 import github from "../../assets/github.svg";
 import canva from "../../assets/canva.png";
 import jira from "../../assets/jira.png";
-import next from "../../assets/next.png";
+import next from "../../assets/nextjs.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
