@@ -148,11 +148,7 @@ Open to exciting opportunities and collaborations—let's connect and create som
             </ScrollAnimation>
           </div>
 
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
-              <img src={materialui} alt="Material UI" />
-            </ScrollAnimation>
-          </div>
+          
 
           </div>
           <div>
