@@ -24,6 +24,8 @@ import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import expressjs from "../../assets/expressjs.png";
 import github from "../../assets/github.svg";
 import canva from "../../assets/canva.png";
+import jira from "../../assets/jira.png";
+import next from "../../assets/next.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
@@ -125,7 +127,11 @@ Open to exciting opportunities and collaborations—let's connect and create som
               <img src={reactIcon} alt="React" />
             </ScrollAnimation>
           </div>
-         
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+              <img src={next} alt="Next JS" />
+            </ScrollAnimation>
+          </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
               <img src={django} alt="django" />
@@ -211,7 +217,13 @@ Open to exciting opportunities and collaborations—let's connect and create som
          
 
         </div>
+        <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={jira} alt="Jira" />
+            </ScrollAnimation>
          
+
+        </div>
     
         </div>
       </div>
