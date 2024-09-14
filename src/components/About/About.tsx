@@ -40,7 +40,7 @@ export function About() {
           <p>
           I'm a dynamic full stack web developer with a strong eye for design and innovation. Currently pursuing my engineering degree, I specialize in MERN and PFSD stacks, adept at creating seamless digital experiences through responsive interfaces with React.js and robust APIs with Node.js and Express.js.
 
-With a background in graphic design using Photoshop and Canva, I enhance user engagement and brand identities. Proficient in C, C++, Java, and Python, I thrive on pushing the boundaries of technology.
+With a background in graphic design using Canva, I enhance user engagement and brand identities. Proficient in C, C++, Java, and Python, I thrive on pushing the boundaries of technology.
 
 Open to exciting opportunities and collaborations—let's connect and create something exceptional together!
           </p>
