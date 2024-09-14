@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 // import ParticleAnimation from '../../assets/ParticleAnimation'
-import CV from '../../assets/P Resume (1).pdf'
+import CV from '../../assets/Niranjan_Resume.pdf'
 export function Header() {
   const [isActive, setActive] = useState(false)
 
