@@ -1,6 +1,12 @@
 FROM node:20
 
 WORKDIR /portfolio
+
 COPY . .
+
 RUN yarn add latest
-RUN npm run dev
+
+EXPOSE 3000
+
+CMD ["yarn", "start"]
+
