@@ -21,7 +21,7 @@ docker ps -a
 docker rm container_name
 
 
-8.docker run -d --rm -p container_id
+8.docker run -d --rm -p binding_port_no:port_no container_id
 
 9.To stop the container
 docker stop container_name
