@@ -19,3 +19,12 @@ docker ps -a
 
 7.To remove container
 docker rm container_name
+
+
+8.docker run -d --rm -p container_id
+
+9.To stop the container
+docker stop container_name
+
+10.To modify the name of container
+docker run -d --rm --name "Niranjan" -p container_id
