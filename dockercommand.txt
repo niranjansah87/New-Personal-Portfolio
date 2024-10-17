@@ -1,0 +1,15 @@
+1. To run the container
+docker run container_id
+
+2. To run the container with BACKGROUND BINDING
+
+docker run -p container_id
+
+3.To run the container with terminal use
+docker run -d -p container_id
+
+4.To check container process is running
+docker ps
+
+5.To create docker image from docker file
+docker build
