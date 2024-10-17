@@ -28,3 +28,7 @@ docker stop container_name
 
 10.To modify the name of container
 docker run -d --rm --name "Niranjan" -p container_id
+
+
+11.To check docker image
+docker image ls
