@@ -13,3 +13,9 @@ docker ps
 
 5.To create docker image from docker file
 docker build
+
+6.To list all containers
+docker ps -a
+
+7.To remove container
+docker rm container_name
