@@ -32,3 +32,6 @@ docker run -d --rm --name "Niranjan" -p container_id
 
 11.To check docker image
 docker image ls
+
+12. To tag docker image
+docker build -t image_name:tag_id .
