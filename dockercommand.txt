@@ -35,3 +35,6 @@ docker image ls
 
 12. To tag docker image
 docker build -t image_name:tag_id .
+
+7.To remove image
+docker rmi image_name
