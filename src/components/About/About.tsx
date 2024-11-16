@@ -26,6 +26,7 @@ import github from "../../assets/github.svg";
 import canva from "../../assets/canva.png";
 import jira from "../../assets/jira.png";
 import next from "../../assets/nextjs.png";
+import docker from "../../assets/docker.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
@@ -202,7 +203,13 @@ Open to exciting opportunities and collaborations—let's connect and create som
          
 
         </div>
-    
+        <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={docker} alt="docker" />
+            </ScrollAnimation>
+         
+
+        </div>
         </div>
       </div>
       <div className="about-image">
