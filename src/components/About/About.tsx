@@ -28,7 +28,7 @@ import jira from "../../assets/jira.png";
 import next from "../../assets/nextjs.png";
 import docker from "../../assets/docker.png";
 import ScrollAnimation from "react-animate-on-scroll";
-
+import flutter from "../../assets/flutter.png";
 
 export function About() {
   return (
@@ -123,15 +123,25 @@ Let’s build something awesome together! 🚀
           </div>
 
           </div>
+
           <div>
         <h4>Frameworks and libraries</h4>
         </div>
           <div className="hard-skills">
+          
+          
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
               <img src={reactIcon} alt="React" />
             </ScrollAnimation>
           </div>
+          
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
+              <img src={flutter} alt="django" />
+            </ScrollAnimation>
+          </div>
+          
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
               <img src={next} alt="Next JS" />
