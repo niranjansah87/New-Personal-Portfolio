@@ -39,7 +39,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-          I'm a full stack developer with a love for turning ideas into functional, high-performance apps — and, of course, adding a little bit of magic along the way. Currently pursuing my engineering degree, I specialize in MERN, PFSD, and Flutter, focusing on building web and mobile applications that are as sleek as they are powerful.<br></br><br></br>
+          I'm a Aspiring Software Developer & Flutter Enthusiast with a love for turning ideas into functional, high-performance apps — and, of course, adding a little bit of magic along the way. Currently pursuing my engineering degree, I specialize in MERN, PFSD, and Flutter, focusing on building web and mobile applications that are as sleek as they are powerful.<br></br><br></br>
 
 Whether it’s crafting seamless, responsive interfaces with React.js, developing mobile apps with Flutter, or creating reliable backends with Node.js and Express.js, my goal is always to deliver solutions that wow users and scale with ease.<br></br><br></br>
 
