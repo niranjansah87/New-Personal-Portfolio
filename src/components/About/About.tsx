@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import Niranjan from "../../assets/Niranjan.png";
+import Niranjan from "../../assets/Niranjan ..png";
 import CIcon from "../../assets/c.png";
 import htmlIcon from "../../assets/html-icon.svg";
 import cpp from "../../assets/c++.png";
