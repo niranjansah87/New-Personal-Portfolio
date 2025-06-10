@@ -246,6 +246,10 @@ export function Project() {
               </p>
             </div>
             <footer>
+            
+            
+            
+              
               <ul className="tech-list">
 
                 <li>Html</li>
