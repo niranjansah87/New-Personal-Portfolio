@@ -3,37 +3,33 @@ import styled from "styled-components";
 
 export const Container = styled.footer`
   background-color: #2b2b2b;
-  padding: 3rem 15rem;
-  margin-top: 10rem;
+  padding: 1.2rem 8rem;
+  margin-top: 3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  flex-wrap: nowrap;
 
 
-  .logo{
-    font-size: 2.8rem;
-  }
+  .logo{ font-size: 2.4rem; }
 
   p{
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.12rem;
+    line-height: 1.3;
+    margin: 0;
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    img{
-      width: 2.6rem;
-      animation: spinning 5s infinite linear;
-    }
+    img{ width: 2.0rem; animation: spinning 5s infinite linear; }
   }
   .social-media{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+    justify-content: center;
+    gap: 0.8rem;
 
-    img,span{
-      font-size: 3rem;
-      width: 3rem;
-    }
+    img,span{ font-size: 2.2rem; width: 2.2rem; }
   }
 
 
@@ -47,15 +43,16 @@ export const Container = styled.footer`
   }
 
   @media(max-width: 800px){
-    padding: 4rem 10rem;
+    padding: 1rem 2rem;
     flex-direction: column;
-    gap: 2rem;
+    gap: 0.8rem;
     text-align: center;
+    .logo{ font-size: 2.2rem; }
+    .social-media{ gap: 0.8rem; }
   }
   @media(max-width: 600px){
-    padding: 4rem 1rem;
-    p{
-      font-size: 1.2rem;
-    }
+    padding: 1rem 1.2rem;
+    .social-media img{ width: 2.0rem; }
+    p{ font-size: 1.3rem; }
   }
 `

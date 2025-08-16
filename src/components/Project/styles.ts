@@ -11,11 +11,11 @@ export const Container = styled.section`
   }
   .projects{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-template-rows: auto;
     gap: 2rem;
     padding: 1rem;
-    overflow: hidden;
+    overflow: visible;
 
     .project{
       padding: 2rem 1.8rem;
@@ -42,9 +42,7 @@ export const Container = styled.section`
           align-items: center;
           gap: 1rem;
         }
-        a > img {
-          width: 5.0rem;
-        }
+        a > img { width: 5.0rem; }
       }
       
       h3{
@@ -78,15 +76,7 @@ export const Container = styled.section`
     }
   }
 
-  @media (max-width: 960px){
-    .projects{
-      grid-template-columns: 1fr 1fr;
-    }
-  }
+  @media (max-width: 960px){ .projects{ grid-template-columns: repeat(2, minmax(0,1fr)); } }
 
-  @media (max-width: 740px){
-    .projects{
-      grid-template-columns: 1fr;
-    }
-  }
+  @media (max-width: 740px){ .projects{ grid-template-columns: 1fr; } }
 `

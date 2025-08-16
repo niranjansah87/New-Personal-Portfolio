@@ -5,7 +5,8 @@ export const Container = styled.main`
   position: relative;
   z-index: 0;
   padding: 0 10rem;
-  overflow-x: hidden;
+  overflow-x: clip;
+  overflow-y: visible;
   #tsparticles{
     position: absolute;
     left: 0;
@@ -16,10 +17,10 @@ export const Container = styled.main`
   }
 
   @media (max-width: 740px){
-    padding: 0 4rem;
+    padding: 0 1.6rem;
   }
 
   @media(max-width: 360px){
-    padding: 0 2rem;
+    padding: 0 1.2rem;
   }
 `

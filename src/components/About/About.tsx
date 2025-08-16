@@ -54,7 +54,7 @@ Let’s build something awesome together! 🚀<br></br>
         
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
-          <h2>My Main Skills:</h2>
+          <h2 className="skills-title">My Main Skills:</h2>
         </ScrollAnimation>
         <div>
         <h4>Programming Language</h4>
@@ -145,6 +145,11 @@ Let’s build something awesome together! 🚀<br></br>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
               <img src={next} alt="Next JS" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
+              <img src="/fastapi.svg" alt="FastAPI" />
             </ScrollAnimation>
           </div>
           <div className="hability">

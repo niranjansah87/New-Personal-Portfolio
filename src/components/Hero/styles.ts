@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  padding-top: 12%;
+  padding-top: 14vh;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 8rem;
   background: rgba(0,0,0,0);
   .hero-text{
@@ -45,27 +46,31 @@ export const Container = styled.section`
   }
 
   .hero-image{
+    display: flex;
+    justify-content: center;
     img{
-      max-width: 100%; /* Adjusted to be responsive */
+      max-width: 100%;
       margin-top: -1rem;
-      margin-right: 16rem;
+      margin-right: 0;
     }
   }
 
   @media(max-width: 960px){
     display: block;
-    margin-top: 15%;
+    margin-top: 20%;
     gap: 4rem; /* Adjusted gap for smaller screens */
     
     .hero-text{
+      text-align: center;
       h1{
         font-size: 5rem;
       }
     }
     
     .hero-image{
-      display: relative;
-      margin-top: 0rem;
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
       margin-right: 0rem; /* Remove right margin on smaller screens */
     }
   }

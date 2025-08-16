@@ -5,7 +5,7 @@ export const Container = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.8rem 10rem;
+  padding: 1.4rem 4rem;
   
   background-color: #21212150;
   
@@ -14,7 +14,7 @@ export const Container = styled.header`
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 1000;
 
   nav{
@@ -39,6 +39,8 @@ export const Container = styled.header`
     }
 
   }
+
+  .logo{ font-size: 2.2rem; }
 
   .menu-container{
     cursor: pointer;
@@ -99,8 +101,8 @@ export const Container = styled.header`
   label {
     cursor: pointer;
     text-indent: -9999px;
-    width: 55px;
-    height: 30px;
+    width: 44px;
+    height: 24px;
     background: var(--green);
     display: block;
     justify-content: center;
@@ -109,8 +111,7 @@ export const Container = styled.header`
     -moz-border-radius: 100px;
     border-radius: 100px;
     position: relative;
-    margin-left: auto;
-    right: 10px;
+    margin-left: 1rem;
   }
 
   @media only screen and (max-width: 800px) {
@@ -122,14 +123,14 @@ export const Container = styled.header`
   label:after {
     content: '';
     background: #FFF;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
     position: absolute;
-    top: 5px;
-    left: 4px;
+    top: 3px;
+    left: 3px;
    transition: cubic-bezier(0.68, -0.55, 0.27, 01.55) 320ms;
   }
 
@@ -146,7 +147,7 @@ export const Container = styled.header`
   }
 
   input:checked + label:after {
-    left: calc(100% - 5px);
+    left: calc(100% - 3px);
     -webkit-transform: translateX(-100%);
     -moz-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
@@ -155,7 +156,8 @@ export const Container = styled.header`
   }
 
   @media (max-width: 960px){
-    padding: 1.8rem 3rem;
+    padding: 1.4rem 2rem;
+    .logo{ font-size: 2rem; }
 
     .menu{
       display: block;
@@ -188,6 +190,10 @@ export const Container = styled.header`
         visibility: visible;
       }
     }
+  }
+
+  @media (max-width: 600px){
+    .logo{ font-size: 1.8rem; }
   }
   
 `
