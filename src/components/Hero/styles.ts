@@ -14,6 +14,14 @@ export const Container = styled.section`
     h1{
       font-size: 7rem;
       margin-bottom: -2rem;
+      .typing{
+        display: inline-block;
+        border-right: 3px solid rgba(255,255,255,0.75);
+        white-space: nowrap;
+        overflow: hidden;
+        width: 12ch;
+        animation: typing 2.5s steps(12, end) infinite alternate, blink-caret .75s step-end infinite;
+      }
     }
 
     h3{
@@ -24,6 +32,15 @@ export const Container = styled.section`
     p.small-resume {
       margin-bottom: 5rem;
     }
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 12ch }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgba(255,255,255,0.75) }
   }
 
   .social-media{

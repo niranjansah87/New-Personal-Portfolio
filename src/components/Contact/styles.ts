@@ -20,26 +20,28 @@ export const Container = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 0.8rem;
     place-items: center;
     margin-top: 1.5rem;
     div{
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 50%;
-      max-width: 30rem;
-      gap: 2rem;
+      width: 38%;
+      max-width: 24rem;
+      gap: 0.8rem;
       background-color: var(--green);
-      border-radius: 1.4rem;
-      padding: 1.6rem 2.8rem;
+      border-radius: 0.8rem;
+      padding: 0.8rem 1.2rem;
       transition: background-color 0.25s;
       img{
-        width: 4rem;
+        width: 2.4rem;
       }
       a{
         color: var(--black);
-        font-weight: 500;
+        font-weight: 600;
+        font-size: 1.4rem;
+        line-height: 1.2;
       }
       &:hover{
         background-color: var(--pink);
@@ -56,6 +58,10 @@ export const Container = styled.section`
       flex-direction: column;
       div{
         width: 100%;
+        max-width: 24rem;
+        padding: 0.9rem 1.2rem;
+        img{ width: 2.6rem; }
+        a{ font-size: 1.3rem; }
         
       }
     }

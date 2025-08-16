@@ -18,7 +18,9 @@ export function Hero() {
           <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1>Niranjan sah</h1>
+          <h1>
+            <span className="typing">Niranjan sah</span>
+          </h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
           <h3>Aspiring Software Developer | Flutter Enthusiast</h3>
