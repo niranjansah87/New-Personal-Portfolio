@@ -17,8 +17,8 @@ export function Contact(){
           <a href="mailto:niranjansah250@gmail.com">niranjansah250@gmail.com</a>
         </div>
         <div>
-        <a href="tel:+918002004609"><img src={phoneIcon} alt="Phone No" /></a>
-          <a href="tel:+918002004609">(+91) 8002004609</a>
+        <a href="tel:+9779826753490"><img src={phoneIcon} alt="Phone No" /></a>
+          <a href="tel:+9779826753490">(+977) 9826753490</a>
         </div>  
       </div>
       <Form></Form>
