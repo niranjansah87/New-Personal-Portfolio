@@ -1,16 +1,20 @@
 import { Container, ContainerSucces } from './styles'
-import { useForm, ValidationError } from '@formspree/react'
 import { toast, ToastContainer } from 'react-toastify'
-// import ReCAPTCHA from 'react-google-recaptcha'
 import { useEffect, useState } from 'react'
 import validator from 'validator'
+import emailjs from '@emailjs/browser'
 
 export function Form() {
-  const [state, handleSubmit] = useForm('xknkpqry')
-
   const [validEmail, setValidEmail] = useState(false)
-  // const [isHuman, setIsHuman] = useState(false)
   const [message, setMessage] = useState('')
+  const [email, setEmail] = useState('')
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isSuccess, setIsSuccess] = useState(false)
+
+  // EmailJS configuration
+  const SERVICE_ID = 'service_348e95l'
+  const TEMPLATE_ID = 'template_9zrdq9m'
+  const PUBLIC_KEY = 'fIVgbP2s9jDysn_sV' // You'll need to get this from EmailJS dashboard
 
   function verifyEmail(email: string) {
     if (validator.isEmail(email)) {
@@ -20,8 +24,31 @@ export function Form() {
     }
   }
 
-  useEffect(() => {
-    if (state.succeeded) {
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    
+    if (!validEmail || !message) {
+      toast.error('Please fill in all required fields correctly!', {
+        position: toast.POSITION.BOTTOM_LEFT,
+        pauseOnFocusLoss: false,
+        closeOnClick: true,
+        hideProgressBar: false,
+      })
+      return
+    }
+
+    setIsSubmitting(true)
+
+    try {
+      const templateParams = {
+        from_name: email,
+        from_email: email,
+        message: message,
+        to_name: 'Niranjan', // Your name
+      }
+
+      await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY)
+      
       toast.success('Email successfully sent!', {
         position: toast.POSITION.BOTTOM_LEFT,
         pauseOnFocusLoss: false,
@@ -29,14 +56,31 @@ export function Form() {
         hideProgressBar: false,
         toastId: 'succeeded',
       })
+      
+      setIsSuccess(true)
+      setEmail('')
+      setMessage('')
+      setValidEmail(false)
+    } catch (error) {
+      console.error('Error sending email:', error)
+      toast.error('Failed to send email. Please try again!', {
+        position: toast.POSITION.BOTTOM_LEFT,
+        pauseOnFocusLoss: false,
+        closeOnClick: true,
+        hideProgressBar: false,
+      })
+    } finally {
+      setIsSubmitting(false)
     }
-  })
-  if (state.succeeded) {
+  }
+
+  if (isSuccess) {
     return (
       <ContainerSucces>
         <h3>Thanks for getting in touch!</h3>
         <button
           onClick={() => {
+            setIsSuccess(false)
             window.scrollTo({ top: 0, behavior: 'smooth' })
           }}
         >
@@ -56,38 +100,28 @@ export function Form() {
           id="email"
           type="email"
           name="email"
+          value={email}
           onChange={(e) => {
+            setEmail(e.target.value)
             verifyEmail(e.target.value)
           }}
           required
         />
-        <ValidationError prefix="Email" field="email" errors={state.errors} />
         <textarea
           required
           placeholder="Send a message to get started."
           id="message"
           name="message"
+          value={message}
           onChange={(e) => {
             setMessage(e.target.value)
           }}
         />
-        <ValidationError
-          prefix="Message"
-          field="message"
-          errors={state.errors}
-        />
-        {/* <ReCAPTCHA
-          sitekey="6Lfj9NYfAAAAAP8wPLtzrsSZeACIcGgwuEIRvbSg"
-          onChange={(e) => {
-            setIsHuman(true)
-          }}
-        ></ReCAPTCHA> */}
         <button
           type="submit"
-          disabled={state.submitting || !validEmail || !message }
+          disabled={isSubmitting || !validEmail || !message}
         >
-
-          Submit
+          {isSubmitting ? 'Sending...' : 'Submit'}
         </button>
       </form>
       <ToastContainer />

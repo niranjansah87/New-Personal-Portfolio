@@ -29,6 +29,8 @@ import next from "../../assets/nextjs.png";
 import docker from "../../assets/docker.png";
 import ScrollAnimation from "react-animate-on-scroll";
 import flutter from "../../assets/flutter.png";
+import fastapi from "../../assets/fastapi.svg";
+import redis from "../../assets/redis.png";
 
 export function About() {
   return (
@@ -116,11 +118,6 @@ Let’s build something awesome together! 🚀<br></br>
               <img src={nodeIcon} alt="Node" />
             </ScrollAnimation>
           </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
-              <img src={expressjs} alt="Express JS" />
-            </ScrollAnimation>
-          </div>
 
           </div>
 
@@ -137,6 +134,12 @@ Let’s build something awesome together! 🚀<br></br>
           </div>
           
           <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
+              <img src={expressjs} alt="Express JS" />
+            </ScrollAnimation>
+          </div>
+          
+          <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
               <img src={flutter} alt="django" />
             </ScrollAnimation>
@@ -149,7 +152,7 @@ Let’s build something awesome together! 🚀<br></br>
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
-              <img src="/fastapi.svg" alt="FastAPI" />
+              <img src={fastapi} alt="FastAPI" />
             </ScrollAnimation>
           </div>
           <div className="hability">
@@ -193,7 +196,11 @@ Let’s build something awesome together! 🚀<br></br>
             </ScrollAnimation>
           </div>
 
-          
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={redis} alt="Redis" />
+            </ScrollAnimation>
+          </div>
 
           
           
