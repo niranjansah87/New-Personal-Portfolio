@@ -1,4 +1,5 @@
 import { Container } from './styles'
+import { Link } from 'react-router-dom'
 import reactIcon from '../../assets/react-icon.svg'
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
@@ -10,10 +11,10 @@ import instagramIcon from '../../assets/instagram.svg'
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="#" className="logo">
+      <Link to="/" className="logo">
         <span>niranjan</span>
         <span>sah87.com.np</span>
-      </a>
+      </Link>
       <div>
         <p>
           This Website was made with <img src={reactIcon} alt="React" />
@@ -57,7 +58,7 @@ export function Footer() {
         >
           <img src={instagramIcon} alt="Instagram" />
         </a>
-     
+
       </div>
     </Container>
   )

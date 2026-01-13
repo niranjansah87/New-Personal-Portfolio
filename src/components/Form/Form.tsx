@@ -1,6 +1,6 @@
 import { Container, ContainerSucces } from './styles'
 import { toast, ToastContainer } from 'react-toastify'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import validator from 'validator'
 import emailjs from '@emailjs/browser'
 
@@ -26,7 +26,7 @@ export function Form() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    
+
     if (!validEmail || !message) {
       toast.error('Please fill in all required fields correctly!', {
         position: toast.POSITION.BOTTOM_LEFT,
@@ -48,7 +48,7 @@ export function Form() {
       }
 
       await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY)
-      
+
       toast.success('Email successfully sent!', {
         position: toast.POSITION.BOTTOM_LEFT,
         pauseOnFocusLoss: false,
@@ -56,7 +56,7 @@ export function Form() {
         hideProgressBar: false,
         toastId: 'succeeded',
       })
-      
+
       setIsSuccess(true)
       setEmail('')
       setMessage('')
