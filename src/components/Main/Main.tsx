@@ -4,7 +4,7 @@ import { Hero } from "../Hero/Hero"
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
-import {RecentWork} from "../Recent Work/Recent Work";
+import { RecentWork } from "../Recent Work/Recent Work";
 
 
 
@@ -15,8 +15,28 @@ import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
-// import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import pythonIcon from "../../assets/Python.png";
+import djangoIcon from "../../assets/django.png";
+import nextjsIcon from "../../assets/nextjs.png";
+import dockerIcon from "../../assets/docker.png";
+import awsIcon from "../../assets/aws.png";
+import mongodbIcon from "../../assets/mongodb.png";
+import mysqlIcon from "../../assets/mysql-icon.svg";
+import postgresqlIcon from "../../assets/PostgreSQL.png";
+import redisIcon from "../../assets/redis.png";
+import githubIcon from "../../assets/github.svg";
+import azureIcon from "../../assets/azure.png";
+import herokuIcon from "../../assets/heroku.png";
+import netlifyIcon from "../../assets/netlify.png";
+import fastapiIcon from "../../assets/fastapi.svg";
+import flutterIcon from "../../assets/flutter.png";
+import tailwindIcon from "../../assets/tailwand.png";
+import materialuiIcon from "../../assets/materialui.png";
+import vscodeIcon from "../../assets/vscode-icon.svg";
+import cIcon from "../../assets/c.png";
+import cppIcon from "../../assets/c++.png";
+import javaIcon from "../../assets/java.svg";
 
 
 
@@ -27,11 +47,11 @@ export function Main() {
 
     <Container>
       <Particles
-        id="tsparticles"
+        id="tech-tsparticles"
         options={{
           "fullScreen": {
             "enable": true,
-            "zIndex": 1
+            "zIndex": 0
           },
           "detectRetina": true,
           "fpsLimit": 60,
@@ -41,16 +61,11 @@ export function Main() {
                 "enable": true,
                 "mode": "push"
               },
-              "onDiv": {
-                "elementId": "repulse-div",
-                "enable": false,
-                "mode": "repulse"
-              },
               "onHover": {
                 "enable": true,
                 "mode": "bubble",
                 "parallax": {
-                  "enable": false,
+                  "enable": true,
                   "force": 60,
                   "smooth": 10
                 }
@@ -62,30 +77,10 @@ export function Main() {
                 "distance": 400,
                 "duration": 2,
                 "opacity": 0.8,
-                "size": 2,
-              },
-              "connect": {
-                "distance": 80,
-                "lineLinked": {
-                  "opacity": 0.5
-                },
-                "radius": 60
-              },
-              "grab": {
-                "distance": 400,
-                "lineLinked": {
-                  "opacity": 1
-                }
+                "size": 40,
               },
               "push": {
                 "quantity": 2
-              },
-              "remove": {
-                "quantity": 2
-              },
-              "repulse": {
-                "distance": 200,
-                "duration": 0.4
               }
             }
           },
@@ -93,29 +88,11 @@ export function Main() {
             "color": {
               "value": "#ffffff"
             },
-            "lineLinked": {
-              "blink": false,
-              "color": "#000",
-              "consent": false,
-              "distance": 150,
-              "enable": false,
-              "opacity": 0.4,
-              "width": 1
-            },
             "move": {
-              "attract": {
-                "enable": false,
-                "rotate": {
-                  "x": 600,
-                  "y": 1200
-                }
-              },
-              "bounce": false,
-              "direction": "none",
               "enable": true,
               "outMode": "out",
-              "random": false,
-              "speed": 2,
+              "random": true,
+              "speed": 1,
               "straight": false
             },
             "number": {
@@ -123,8 +100,7 @@ export function Main() {
                 "enable": true,
                 "area": 800
               },
-              "limit": 20,
-              "value": 15,
+              "value": 35,
             },
             "opacity": {
               "animation": {
@@ -134,127 +110,48 @@ export function Main() {
                 "sync": false
               },
               "random": true,
-              "value": 1
-            },
-            "rotate": {
-              "animation": {
-                "enable": true,
-                "speed": 5,
-                "sync": false
-              },
-              "direction": "random",
-              "random": true,
-              "value": 0
+              "value": 0.7
             },
             "shape": {
-              "character": {
-                "fill": false,
-                "font": "Verdana",
-                "style": "",
-                "value": "*",
-                "weight": "400"
-              },
               "image": [
-                {
-                  "src": boostrapIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": cssIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                // {
-                //   "src": wordpress,
-                //   "width": 20,
-                //   "height": 20
-                // },
-                
-                {
-                  "src": htmlIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": jsIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                // {
-                //   "src": mysqlIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
-                {
-                  "src": nodeIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": reactIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": sassIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": typescriptIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                // {
-                //   "src": vscodeIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
-                // {
-                //   "src": vueIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
-
+                { "src": boostrapIcon, "width": 20, "height": 20 },
+                { "src": cssIcon, "width": 20, "height": 20 },
+                { "src": htmlIcon, "width": 20, "height": 20 },
+                { "src": jsIcon, "width": 20, "height": 20 },
+                { "src": nodeIcon, "width": 20, "height": 20 },
+                { "src": reactIcon, "width": 20, "height": 20 },
+                { "src": sassIcon, "width": 20, "height": 20 },
+                { "src": typescriptIcon, "width": 20, "height": 20 },
+                { "src": pythonIcon, "width": 20, "height": 20 },
+                { "src": djangoIcon, "width": 20, "height": 20 },
+                { "src": nextjsIcon, "width": 20, "height": 20 },
+                { "src": dockerIcon, "width": 20, "height": 20 },
+                { "src": awsIcon, "width": 20, "height": 20 },
+                { "src": mongodbIcon, "width": 20, "height": 20 },
+                { "src": mysqlIcon, "width": 20, "height": 20 },
+                { "src": postgresqlIcon, "width": 20, "height": 20 },
+                { "src": redisIcon, "width": 20, "height": 20 },
+                { "src": githubIcon, "width": 20, "height": 20 },
+                { "src": azureIcon, "width": 20, "height": 20 },
+                { "src": herokuIcon, "width": 20, "height": 20 },
+                { "src": netlifyIcon, "width": 20, "height": 20 },
+                { "src": fastapiIcon, "width": 20, "height": 20 },
+                { "src": flutterIcon, "width": 20, "height": 20 },
+                { "src": tailwindIcon, "width": 20, "height": 20 },
+                { "src": materialuiIcon, "width": 20, "height": 20 },
+                { "src": vscodeIcon, "width": 20, "height": 20 },
+                { "src": cIcon, "width": 20, "height": 20 },
+                { "src": cppIcon, "width": 20, "height": 20 },
+                { "src": javaIcon, "width": 20, "height": 20 },
               ],
-              "polygon": {
-                "sides": 5
-              },
-              "stroke": {
-                "color": "#000000",
-                "width": 0
-              },
               "type": "image"
             },
             "size": {
-              "animation": {
-                "enable": false,
-                "minimumValue": 0.1,
-                "speed": 40,
-                "sync": false
-              },
-              "random": false,
-              "value": 16
+              "value": 15
             }
           },
-          "polygon": {
-            "draw": {
-              "enable": false,
-              "lineColor": "#ffffff",
-              "lineWidth": 0.5
-            },
-            "move": {
-              "radius": 10
-            },
-            "scale": 1,
-            "url": ""
-          },
           "background": {
-            "image": "",
-            "position": "50% 50%",
-            "repeat": "no-repeat",
-            "size": "cover"
+            "color": "transparent"
           }
         }}
       />

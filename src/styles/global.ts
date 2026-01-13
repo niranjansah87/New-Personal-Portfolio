@@ -10,54 +10,12 @@ export const GlobalStyle = createGlobalStyle`
     scroll-padding-top: 10rem;
 
     &.light{
-
       body{
-        transition: 0.5s;
-        background-color: #f5f5f5;
+        background-color: transparent !important;
         color: var(--black);
       }
-
-      .logo{
-        color: var(--black);
-      }
-
-      header.header-fixed{
-        transition: 0.5s;
-        background-color: #f5f5f550;
-        a{
-          transition: 0.5s;
-          color: black;
-        }
-        .menu,.menu:before, .menu:after{
-          background-color: var(--black); 
-        }
-        .menu.active{
-          background-color: rgba(555,555,555,0);
-        }
-      }
-
-      footer.footer{
-        transition: 0.5s;
-        background-color: rgba(0,0,0,0.1);
-        color: var(--black);
-      }
-
-      form{
-        input,textarea{
-          transition: 0.5s;
-          border: solid 1px var(--black);
-          color: var(--black);
-          &::placeholder{
-            transition: 0.5s;
-            color: var(--black);
-          }
-        }
-      }
-
     }
   }
-
-
 
   ul, li {
     text-decoration: none;
@@ -74,12 +32,13 @@ export const GlobalStyle = createGlobalStyle`
 
   html{
     font-size: 62.5%;
+    background-color: #000 !important; /* Force black background */
   }
 
-  body{
+  body, #root {
     font-size: 1.6rem;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--black);
+    background-color: transparent !important;
     color: #FFFF;
   }
 
@@ -120,4 +79,4 @@ export const GlobalStyle = createGlobalStyle`
   }
   
 
-`
+`;

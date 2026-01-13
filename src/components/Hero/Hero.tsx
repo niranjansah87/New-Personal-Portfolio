@@ -9,25 +9,31 @@ import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
 import instagramIcon from '../../assets/instagram.svg'
-// import { Illustration3D } from "./Illustration3D"
+import kutumbHead from '../../assets/Kutumb_Head-removebg-preview.png'
+import Tilt from "react-parallax-tilt";
+
+// Hero component
 export function Hero() {
   return (
     <Container id="home">
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp">
-          <p>Hello <img src={Hello} alt="Hello" width="20px" />, I'm</p>
+          <Tilt>
+            <p>Hello <img src={Hello} alt="Hello" width="20px" />, I'm</p>
+          </Tilt>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1>
-            <span className="typing">Niranjan sah</span>
-          </h1>
+          <Tilt>
+            <h1>
+              <span className="typing">Niranjan sah</span>
+            </h1>
+          </Tilt>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Aspiring Software Developer</h3>
+          <Tilt>
+            <h3>Aspiring Software Developer</h3>
+          </Tilt>
         </ScrollAnimation>
-        {/* <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">4 Years of Experience</p>
-        </ScrollAnimation> */}
 
 
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
@@ -82,10 +88,11 @@ export function Hero() {
 
       </div>
 
-
       <div className="hero-image">
         <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          <Illustration3D />
+          <Tilt>
+            <img src={kutumbHead} alt="Niranjan Sah" />
+          </Tilt>
         </ScrollAnimation>
       </div>
 

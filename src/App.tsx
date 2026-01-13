@@ -7,11 +7,13 @@ import { Main } from './components/Main/Main'
 import { GlobalStyle } from './styles/global'
 // import {Skills} from './components/Skills/index'
 
+import { SpaceBackground } from './components/SpaceBackground/SpaceBackground'
 import 'react-toastify/dist/ReactToastify.css'
 function App() {
   return (
     <BrowserRouter>
       <GlobalStyle></GlobalStyle>
+      <SpaceBackground />
       <Header></Header>
       <Main></Main>
 

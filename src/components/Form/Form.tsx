@@ -4,6 +4,8 @@ import { useState } from 'react'
 import validator from 'validator'
 import emailjs from '@emailjs/browser'
 
+import Tilt from 'react-parallax-tilt'
+
 export function Form() {
   const [validEmail, setValidEmail] = useState(false)
   const [message, setMessage] = useState('')
@@ -92,39 +94,41 @@ export function Form() {
   }
 
   return (
-    <Container>
-      <h2>Get in touch using the form</h2>
-      <form onSubmit={handleSubmit}>
-        <input
-          placeholder="Email"
-          id="email"
-          type="email"
-          name="email"
-          value={email}
-          onChange={(e) => {
-            setEmail(e.target.value)
-            verifyEmail(e.target.value)
-          }}
-          required
-        />
-        <textarea
-          required
-          placeholder="Send a message to get started."
-          id="message"
-          name="message"
-          value={message}
-          onChange={(e) => {
-            setMessage(e.target.value)
-          }}
-        />
-        <button
-          type="submit"
-          disabled={isSubmitting || !validEmail || !message}
-        >
-          {isSubmitting ? 'Sending...' : 'Submit'}
-        </button>
-      </form>
-      <ToastContainer />
-    </Container>
+    <Tilt perspective={2000} glareEnable={true} glareMaxOpacity={0.1} glareColor="#ffffff" glarePosition="all" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }}>
+      <Container>
+        <h2>Get in touch using the form</h2>
+        <form onSubmit={handleSubmit}>
+          <input
+            placeholder="Email"
+            id="email"
+            type="email"
+            name="email"
+            value={email}
+            onChange={(e) => {
+              setEmail(e.target.value)
+              verifyEmail(e.target.value)
+            }}
+            required
+          />
+          <textarea
+            required
+            placeholder="Send a message to get started."
+            id="message"
+            name="message"
+            value={message}
+            onChange={(e) => {
+              setMessage(e.target.value)
+            }}
+          />
+          <button
+            type="submit"
+            disabled={isSubmitting || !validEmail || !message}
+          >
+            {isSubmitting ? 'Sending...' : 'Submit'}
+          </button>
+        </form>
+        <ToastContainer />
+      </Container>
+    </Tilt>
   )
 }

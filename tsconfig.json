@@ -19,9 +19,6 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-    "types": [
-      "@types/babel__generator/index.d.ts"
-    ]
   },
   "include": [
     "src"
