@@ -11,14 +11,72 @@ export function RecentWork() {
       <h2>Recent Web Design</h2>
       <div className="projects">
 
+  <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://niranjansah.com.np" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Portfolio Using HTML And CSS</h3>
+              <p>
+                A personal portfolio website built to highlight my projects, skills, and experience in full-stack development. Designed with a clean, responsive layout to provide an easy and professional way for recruiters to explore my work.
+            </p>
+            </div>
+            <footer>
+            
+            
+            
+              
+              <ul className="tech-list">
 
+                <li>Html</li>
+                <li>css</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+  <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://niranjansah87.github.io/Animated_Navbar/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>
+                Happy Birthday Pratyasha (Friend's Girlfriend)</h3>
+              <p>
+                
+Happy Birthday Pratyasha is a personalized interactive web page created as a birthday surprise for a close friend’s girlfriend. The website features custom visuals, animations, and thoughtfully designed content to create a warm and engaging user experience.
+
+Built using modern frontend technologies and deployed on Vercel, this project demonstrates skills in responsive design, creative UI development, and frontend interactivity, along with the ability to deliver meaningful, user-focused web experiences beyond traditional business applications.
+
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Html</li>
+                <li>css</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://niranjansah87.github.io/Animated_Navbar/" target="_blank" rel="noreferrer">
+                <a href="https://happybirthdaypratyasha.vercel.app/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>

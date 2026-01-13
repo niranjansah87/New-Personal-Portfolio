@@ -11,34 +11,37 @@ export function Project() {
       <h2>My Projects</h2>
       <div className="projects">
 
-        <ScrollAnimation animateIn="flipInX">
+      
+
+  <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://forensixplore.vercel.app/" target="_blank" rel="noreferrer">
+                <a href="http://sunlighttailors.com/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Forensixplore</h3>
+              <h3>
+                Sunlight Tailors</h3>
               <p>
-                Designed and developed the official website for ForensiXplore, our department's cybersecurity club. The site features a modern design, event calendar, resource library, membership portal, and blog section to enhance engagement and provide valuable resources to our community
+Sunlight Tailors is a full-stack web application built to help a traditional tailoring business move online. The platform allows customers to explore services and place orders, while an admin dashboard enables efficient management of orders, products, and customers.
+Built using React, Node.js, Express.js, and MongoDB, the system focuses on usability, scalability, and business efficiency.
+
               </p>
             </div>
             <footer>
               <ul className="tech-list">
                 <li>React</li>
+                <li>Nodejs</li>
                 <li>Express</li>
                 <li>MongoDB</li>
-                <li>Nodejs</li>
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
-
-
 
 
 
@@ -57,7 +60,8 @@ export function Project() {
               <h3>
                 KL Samarthya</h3>
               <p>
-                As a developer in web development, I recently completed a challenging and exciting project, designing and developing a department fest website i.e KL Samarthya using Django. The project aimed to provide an intuitive, user-friendly website for students and the public to access information about the department.
+KL Samarthya is the official department fest website developed for KL University for two consecutive years. The platform supports event listings, user authentication, and online registrations while handling high traffic during peak periods.
+Built using Python, Django, and SQLite, it showcases reliability, scalability, and real-world deployment experience.
 
 
               </p>
@@ -72,6 +76,104 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation>
+  <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://forensixplore.vercel.app/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Forensixplore</h3>
+              <p>
+ForensiXplore is a full-stack web platform developed for a university cybersecurity club to manage member engagement and activities digitally. The application provides structured content access and user interaction through a centralized system.
+Built using the MERN stack, this project demonstrates practical experience in building secure, user-focused web applications.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>React</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>Nodejs</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+
+
+
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://aonetwocafe.netlify.app/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>A One Cafe</h3>
+              <p>
+              A One Café is a web-based venue booking platform developed to digitize event and table reservations for a café. The application allows users to check availability and place bookings online, reducing manual coordination and improving operational efficiency.
+
+Built using React (Vite), Node.js, Express.js, and MySQL, the platform focuses on simplicity, responsiveness, and reliable booking management.
+
+
+
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+
+                <li>React</li>
+                <li>Express</li>
+                <li>MY SQL</li>
+                <li>NODE JS</li>
+                <li>Sequelize ORM</li>
+
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+  <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://github.com/niranjansah87/Secure-Enviornment-Manager" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Secure Enviornment Manager</h3>
+              <p>
+Secure Environment Manager is a web-based platform for securely managing application environment variables with encryption, versioning, and auditability. It centralizes configuration management while ensuring operational reliability and traceability.
+
+Built as an advanced alternative to traditional dotenv solutions, the system includes encryption at rest, version control, environment comparison, audit logging, automated backups, and a CLI tool, demonstrating the design of production-ready, security-focused developer tools.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>FastAPI</li>
+                <li>Python</li>
+
+                <li>Html</li>
+                <li>css</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
@@ -86,7 +188,8 @@ export function Project() {
             <div className="body">
               <h3>AutoZ</h3>
               <p>
-                This website is based on rental management system.
+                AutoZ is a web-based rental management system designed to simplify vehicle rental operations. The platform enables users to browse available vehicles and supports basic rental workflow management through a clean interface.
+Developed using Django, HTML, and CSS, this project highlights backend-driven application development and structured data handling.
               </p>
             </div>
             <footer>
@@ -146,9 +249,11 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>Portfolio Using React and ThreeJS</h3>
+              <h3>Personal Portfolio</h3>
               <p>
-                This is my portfolio website. I have used React and ThreeJS to make this website.
+                This portfolio website is a personal platform designed to showcase my projects, technical skills, and professional experience as a full-stack software developer. It presents selected real-world projects with a focus on clean design, clarity, and usability.
+
+The website is built with modern frontend technologies and optimized for performance and responsiveness, serving as a central place for recruiters and collaborators to explore my work and get in touch.
               </p>
             </div>
             <footer>
@@ -221,79 +326,48 @@ export function Project() {
 
 
 
-
-
-
-
-
-
-
-
-        <ScrollAnimation animateIn="flipInX">
+<ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://niranjansah.com.np" target="_blank" rel="noreferrer">
+                <a href="https://www.hydrogrid.com.np/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Portfolio Using HTML And CSS</h3>
+              <h3>
+                Hydrogrid Engineering Pvt. Ltd.</h3>
               <p>
-                This is my first portfolio website using html css.
-              </p>
-            </div>
-            <footer>
-            
-            
-            
-              
-              <ul className="tech-list">
+Developed a responsive business website for Hydrogrid Engineering Pvt. Ltd., a firm providing hydropower plant design, installation, and maintenance services in Nepal. The website highlights company services, expertise, and project information, designed to improve online presence and client engagement.
 
-                <li>Html</li>
-                <li>css</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
+Built with modern web technologies, this project focuses on usability, clear content delivery, and cross-device responsiveness.
+</p>
 
 
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://aonetwocafe.netlify.app/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>A One Cafe</h3>
-              <p>
-                A One Cafe is a web application designed to streamline venue booking for events. Users can select event details, check availability, choose packages and menu items, calculate fares, and finalize bookings with OTP-based authentication.
-
-
-
-
-              </p>
             </div>
             <footer>
               <ul className="tech-list">
 
                 <li>React</li>
-                <li>Express</li>
-                <li>MY SQL</li>
-                <li>NODE JS</li>
-                <li>Sequelize ORM</li>
+                <li>css</li>
+
 
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
+
+
+
+
+
+
+
+      
+
+
 
 
       </div>
